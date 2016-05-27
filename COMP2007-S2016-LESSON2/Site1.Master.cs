@@ -17,8 +17,7 @@ namespace COMP2007_S2016_LESSON2
         /** This method adds active highlighter to each li in the main nav bar
          * @ method addactiveclass
          * @ return (string)
-         *   
-         */
+        */
 
         public void addActiveClass()
         {
