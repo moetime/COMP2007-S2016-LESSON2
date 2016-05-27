@@ -21,14 +21,14 @@ namespace COMP2007_S2016_LESSON2
          *   
          */
 
-        private string addActiveClass()
+        public void addActiveClass()
         {
             switch (Page.Title)
             {
                 case "Home Page":
                     home.Attributes.Add("class", "active");
                     break;
-                case "Products":
+               case "Products":
                     products.Attributes.Add("class", "active");
                     break;
                 case "Services":
@@ -40,9 +40,9 @@ namespace COMP2007_S2016_LESSON2
                 case "About":
                     about.Attributes.Add("class", "active");
                     break;
-            }
+            } 
 
-            return addActiveClass();
+           
         }
     }
 }
