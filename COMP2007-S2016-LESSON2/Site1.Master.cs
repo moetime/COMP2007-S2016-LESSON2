@@ -27,7 +27,7 @@ namespace COMP2007_S2016_LESSON2
                     home.Attributes.Add("class", "active");
                     break;
                case "Products":
-                    products.Attributes.Add("class", "active");
+                    projects.Attributes.Add("class", "active");
                     break;
                 case "Services":
                     services.Attributes.Add("class", "active");

@@ -40,13 +40,13 @@ namespace COMP2007_S2016_LESSON2 {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl home;
         
         /// <summary>
-        /// products control.
+        /// projects control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl products;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl projects;
         
         /// <summary>
         /// services control.
