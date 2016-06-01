@@ -69,6 +69,7 @@
     <Content Include="packages.config" />
     <Content Include="Site1.Master" />
     <Content Include="Scripts\jquery-2.2.3.min.map" />
+    <Content Include="ContactUs.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -126,6 +127,13 @@
     </Compile>
     <Compile Include="ContactMe.aspx.designer.cs">
       <DependentUpon>ContactMe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.Master.cs">
+      <DependentUpon>ContactUs.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.Master.designer.cs">
+      <DependentUpon>ContactUs.Master</DependentUpon>
     </Compile>
     <Compile Include="Projects.aspx.cs">
       <DependentUpon>Projects.aspx</DependentUpon>
